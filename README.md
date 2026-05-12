@@ -1,6 +1,4 @@
-# Fine-tuning Lightweight LLM with LLMEmbed for Domain-Specific Tasks
-* Team: 8
-* Team Members: Ahmad Muhammad, Carlos Granadillo, Daniel Raj
+# OPTIMIZING LIGHTWEIGHT LARGE LANGUAGE MODELS FOR DOMAIN SPECIFIC TASKS THROUGH LLMEMBED FINE-TUNING
 
 ## Project Objective & Brief Description
 This project builds on the work done in the paper titled "LLMEmbed: Rethinking Lightweight LLM's Genuine Function in Text Classification" [1]. The original paper proposed and evaluated a novel methodology called LLMEmbed for text classification using lightweight Large Language Models (LLMs).
@@ -21,7 +19,7 @@ Note: The two financial tasks for which the project was executed (base pipeline,
 To execute the whole project end-to-end, follow these instructions:
 1. Clone the repository
 ```bash
-git clone https://github.com/CarlosGranadillo/msml-capstone-project-group8.git
+git clone https://github.com/teena79/mba-final-project.git
 ```
 
 2. Create a virtual environment and install all the required dependencies.
@@ -88,9 +86,7 @@ Set the following boolean values according to the tasks below as the `main` func
 1. **Computational Resources**  
    Below are the specifications of the compute resources used to execute this project's code:
    
-   GPU : `NVIDIA A100 40GB`.
-
-   ![gpu_resources](images/compute.jpeg)
+   GPU : Google Colab GPU
 
 3. **Hugging Face Access Token**  
    The LLaMA2 model is gated on the Hugging Face hub. To download the required files for this model and execute the project, you will need appropriate access. This involves a two-step process:
