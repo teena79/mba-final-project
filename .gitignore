@@ -1,0 +1,9 @@
+# Ignore these files or directories into include in git
+
+# virtual environment created
+llmembed-env 
+
+# other files and directories
+__pycache__
+.DS_Store
+results
